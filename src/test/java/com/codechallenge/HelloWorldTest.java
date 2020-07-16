@@ -36,4 +36,57 @@ public class HelloWorldTest {
         HelloWorld.main(args);
         assertEquals("Hello World", outcontent.toString().trim());
     }
+
+    @Test
+    public void hTest() {
+        HelloWorld.main(args);
+        assertEquals('H', HelloWorld.hFunction());
+    }
+
+    @Test
+    public void eTest() {
+        HelloWorld.main(args);
+        assertEquals('e', HelloWorld.eFunction());
+    }
+
+    @Test
+    public void lTest() {
+        HelloWorld.main(args);
+        assertEquals('l', HelloWorld.lFunction());
+    }
+
+    @Test
+    public void oTest() {
+        HelloWorld.main(args);
+        assertEquals('o', HelloWorld.oFunction());
+    }
+
+    @Test
+    public void spaceTest() {
+        HelloWorld.main(args);
+        assertEquals(' ', HelloWorld.outerSpaceFunction());
+    }
+
+    @Test
+    public void wTest() {
+        HelloWorld.main(args);
+        assertEquals('W', HelloWorld.wFunction());
+    }
+
+    @Test
+    public void rTest() {
+        HelloWorld.main(args);
+        assertEquals('r', HelloWorld.rFunction());
+    }
+
+    @Test
+    public void dTest() {
+        HelloWorld.main(args);
+        assertEquals('d', HelloWorld.dFunction());
+    }
+    @Test
+    public void periodTest() {
+        HelloWorld.main(args);
+        assertEquals('!', HelloWorld.questionMarkFunction());
+    }
 }
