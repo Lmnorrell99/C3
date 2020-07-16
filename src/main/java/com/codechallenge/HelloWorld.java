@@ -4689,6 +4689,11 @@ public class HelloWorld {
 		return '!';
 	}
 
+	/**
+	 * “It’s a interval of civil battle. Insurgent spaceships, putting from a hidden base, have gained their first victory in opposition to the evil Galactic Empire. Through the battle, Insurgent spies managed to steal secret plans to the Empire’s final weapon, the DEATH STAR, an armored house station with sufficient energy to destroy a whole planet.
+	 *
+	 * Pursued by the Empire’s sinister brokers, Princess Leia races residence aboard her starship, custodian of the stolen plans that may save her folks and restore freedom to the galaxy….”
+	 */
 
 
 }
