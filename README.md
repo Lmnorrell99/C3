@@ -41,3 +41,16 @@ To officially submit your team's final entry, commit your code to the branch you
 
 ## A Note on JDKs ##
 This project has been designed to run with Java 8.  Run on another JDK at your own risk :)
+
+## Strategy ##
+Our strategy was to create classes for each letter in the "Hello World" string. We made some ways of creating the class worse than others, so that the classes were inconsistent with one another. In addition, the classes sometimes contained incorrect information that one would expect based on their name
+
+Another strategy we came up was adding unnecessary loops to create each instance of the letters. This made the code way less readable because the meaning was obscured and there were way more lines of code.
+
+We also named the variables weird things to make our purpose even more obscured.
+
+## Given more time... ##
+We would've put the classes in different packages and added more unnecessary whitespace and inconsistent coding convention.
+
+## One thing we learned ##
+It's hard to make bad code and bad code makes coding harder.

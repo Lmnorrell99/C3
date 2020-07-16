@@ -43,10 +43,15 @@ public class HelloWorld {
 
 		D d = null;
 		int i = 100;
-		while (i < 101) {
+		while (i < 101)
+
+		{
 			d = new D();
 			i++;
 		}
+		;;
+
+		;;
 
 		aksjndf = aksjndf.substring(0, 1).toUpperCase() + e.toString().toLowerCase() + l.toString().toLowerCase() + l.toString().toLowerCase() + aksjndf.substring(1, 2).toLowerCase();
 		corona = o.toString().toUpperCase() + w.toString().toLowerCase() + corona.substring(0, 1).toLowerCase() + l.toString().toLowerCase() + d.toString().toLowerCase();
