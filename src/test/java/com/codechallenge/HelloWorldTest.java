@@ -36,4 +36,9 @@ public class HelloWorldTest {
         HelloWorld.main(args);
         assertEquals("Hello World", outcontent.toString().trim());
     }
+
+    @Test
+    public void test() {
+        assert Javaa.print_line("hi") < 1001;
+    }
 }

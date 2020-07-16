@@ -1,0 +1,7 @@
+We like random numbers, we like loops, and we LOVE ugly code. So, we put all of that together (also, we like casting).
+
+If we had more time, we would have found the worst place for recursion, and put it there.
+One of our goals was to implement a really bad sort algorithm to sort a random sequence of characters until it was correct.
+Another of our ideas was to place all of the possible characters into a binary tree, and searched through it randomly until we found the correct sequence.
+
+We learned a lot of IntelliJ features, such as how to refactor variable names, how to use Git on the IDE, and how to automate imports.
