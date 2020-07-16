@@ -41,3 +41,31 @@ To officially submit your team's final entry, commit your code to the branch you
 
 ## A Note on JDKs ##
 This project has been designed to run with Java 8.  Run on another JDK at your own risk :)
+
+
+
+Strategy:
+Use lots of inheritance with many classes
+Continue to call classes that were not needed
+Used stringbuilders in a loop to make runtime higher
+Encode and Decode the string
+Adding conditional statements to make sure the ascii number is correct
+Use a random generator within for a loop to match ascii 
+Use lots of functions to build chars to strings and make strings into char arrays
+
+
+Done differently given more time:
+Create more unnecessary classes
+Receive input from user
+Make the user have to beat games and make correct guesses in order for “Hello, World” to be printed
+
+
+One thing learned:
+Coding badly is easier than we expected.
+
+
+
+
+
+
+
