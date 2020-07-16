@@ -1,11 +1,1 @@
-package com.codechallenge;
-
-/**
- * Created by merciersj on 8/29/2018.
- */
-public class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-
-	}
-}
+package com.codechallenge;import java.util.ArrayList;public class HelloWorld {static String asdfasdfasdf = "1001000";static String fdasdsafasdfasdfasdfasdfasdfasdf = "10202";static String djkaweflknaflk = "1230";static String asfasdf = "413";static String adsfasdfasdfa = "303";static String asdfasdfasdfasdf = "44";static String asdfadfasdfsdafasdf = "127";static String asdfdsghfdgfjdf = "133";static String fgsdfg = "114";static String jdgjhgjdhfh = "99";static String adsfbsbte2323243ete = "84";public static void main(String[] args) {ArrayList<String> fdsafsdfcasdf = new ArrayList<>();fdsafsdfcasdf.add(asdfasdfasdf);fdsafsdfcasdf.add(fdasdsafasdfasdfasdfasdfasdfasdf);fdsafsdfcasdf.add(djkaweflknaflk);fdsafsdfcasdf.add(asfasdf);fdsafsdfcasdf.add(adsfasdfasdfa);fdsafsdfcasdf.add(asdfasdfasdfasdf);fdsafsdfcasdf.add(asdfadfasdfsdafasdf);fdsafsdfcasdf.add(asdfdsghfdgfjdf);fdsafsdfcasdf.add(fgsdfg);fdsafsdfcasdf.add(jdgjhgjdhfh);fdsafsdfcasdf.add(adsfbsbte2323243ete);for (int i = 0; i < 11; i++) {P p = new P(fdsafsdfcasdf.get(i), String.valueOf(i + 2));p.run();try {Thread.sleep(1);} catch (InterruptedException e) {e.printStackTrace();}}}}
