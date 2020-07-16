@@ -2,10 +2,11 @@ import static org.junit.Assert.*;
 
 import java.io.*;
 
+import com.codechallenge.HelloWorld;
 import org.junit.*;
 import org.junit.jupiter.api.DynamicTest;
 
-public class JTesting {
+class JTesting {
     private final InputStream systemIn = System.in;
     private final PrintStream systemOut = System.out;
 
@@ -42,7 +43,7 @@ public class JTesting {
         final String output = "Hello World";
         provideInput(input);
 
-        Main.main(new String[] {input});
+        HelloWorld.main(new String[] {input});
 
         assertEquals(output, getOutput());
     }
