@@ -1,6 +1,6 @@
 package com.codechallenge;
 
-public class MessageFactory {
+public class MessageFactory extends Factory {
 
 
     public MessageFactory(){
@@ -9,6 +9,6 @@ public class MessageFactory {
 
 
     public String generateMessage(){
-
+        return "";
     }
 }
