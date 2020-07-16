@@ -18,8 +18,8 @@ public class HelloWorld {
 
 	public static int[] badArray = {H,E,L,O,Sp,W,R,D,Ex};
 
-	final static int maxLength = Math.sqrt(64);
-	final static int minLength = 0 + 0 + 1 - 1 * 0 ;
+	final static int maxLength = (int)Math.sqrt(64);
+	final static int minLength = 0  ;
 	
 
 	public static void main(String[] args) {
@@ -28,14 +28,16 @@ public class HelloWorld {
 
 		int randomNum = minLength + (int)(Math.random() * ((maxLength - minLength) + 1));
 
-		boolean badAtGuessingCorrectLetters = !!!true;
+		boolean badAtGuessingCorrectLetters = true;
 
 		for (int i = 0; i < target.length; i++) {
 
 			while (badAtGuessingCorrectLetters) {
 				int badAnswer = badArray[minLength + (int)(Math.random() * ((maxLength - minLength) + 1))];
+
 				if (badAnswer == Character.toLowerCase(target[i]) || badAnswer == target[i]) {
-					HeLlOwOrLd += badAnswer;
+
+					HeLlOwOrLd += (char)badAnswer;
 					break;
 				}
 
@@ -44,6 +46,6 @@ public class HelloWorld {
 
 		System.out.println(HeLlOwOrLd);
 
-		System.out.println("Hello World!");
+		//System.out.println("Hello World!");
 	}
 }
