@@ -1,9 +1,9 @@
 public class LetterW {
-    // actually the letter l
+    // actually the letter o
     private char theLetter;
 
-    public LetterH() {
-        theLetter = 'l';
+    public LetterW() {
+        theLetter = 111;
     }
 
     public char getLetter() {

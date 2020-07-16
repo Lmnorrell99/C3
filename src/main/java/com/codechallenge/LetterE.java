@@ -2,8 +2,8 @@ public class LetterE {
     // actually the letter l
     private char theLetter;
 
-    public LetterH() {
-        theLetter = 'l';
+    public LetterE() {
+        theLetter = 108;
     }
 
     public char getLetter() {

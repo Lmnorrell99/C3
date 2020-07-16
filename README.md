@@ -9,6 +9,15 @@ This simple project will be used for various events.  The challenge will be orga
   * What they would have done differently if given more time.
   * One thing they learned as part of the exercise.
 
+  Our strategy was to create a class for each letter in the hello world statement, but the caveat was that each class had an
+  inaccurate name, which made it even more confusing. On top of that, we gave the char values in numbers. Given more time, we
+  would have tried compiling earlier and figuring out class issues, potentially switching to another idea. One thing that we learned 
+  is that we should test early and often, and that java classes can be confusing.
+
+
+
+
+
 ## Tool Setup ##
 For this challenge, you will need to install the following tools:
 * Tortoise GIT: https://tortoisegit.org/download/

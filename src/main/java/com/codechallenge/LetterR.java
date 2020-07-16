@@ -1,8 +1,8 @@
-public class LetterX {
+public class LetterR {
     // actually the letter l
     private char theLetter;
 
-    public LetterX() {
+    public LetterR() {
         theLetter = 108;
     }
 

@@ -3,7 +3,7 @@ public class LetterH {
     private char theLetter;
 
     public LetterH() {
-        theLetter = 'e';
+        theLetter = 101;
     }
 
     public char getLetter() {
