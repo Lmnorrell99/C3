@@ -36,4 +36,7 @@ public class HelloWorldTest {
         HelloWorld.main(args);
         assertEquals("Hello World", outcontent.toString().trim());
     }
+    @Test
+    public void testOutput(){
+    }
 }
